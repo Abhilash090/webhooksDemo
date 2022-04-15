@@ -44,6 +44,7 @@ public with sharing class FlowDatatableWrapper {
         if (isReference) {
             newWrapper.fieldName = getFieldName(newWrapper.fieldName);
         }
+        system.debug('newWrapper '+newWrapper);
         return newWrapper;
     }
 
